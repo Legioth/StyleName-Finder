@@ -16,7 +16,6 @@ import com.vaadin.ui.VerticalLayout;
 
 @Theme("valo")
 @Title("StyleNameFinder example UI")
-@Widgetset("org.vaadin.leif.stylenamefinder.StyleNameFinderWidgetset")
 public class StyleNameFinderUI extends UI {
     @WebServlet(value = "/*", asyncSupported = true)
     @VaadinServletConfiguration(productionMode = false, ui = StyleNameFinderUI.class)
